@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ページ設定（スウェーデンカラーテーマ）
 st.set_page_config(
-    page_title="Vista Feet × Japan | 市場参入戦略",
+    page_title="Vista Feet × Japan | 日本市場参入のための戦略",
     page_icon="🇸🇪",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -113,9 +113,9 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### 📅 作成日")
 st.sidebar.markdown(f"{datetime.now().strftime('%Y年%m月%d日')}")
 st.sidebar.markdown("### 👤 担当者")
-st.sidebar.markdown("Yoko")
+st.sidebar.markdown("Yoko Kaiki")
 st.sidebar.markdown("### 🎯 対象")
-st.sidebar.markdown("Vista Feet CEO - Kajsa")
+st.sidebar.markdown("For investers")
 
 # メインコンテンツ
 if selected_slide == "🏠 ホーム":
@@ -163,7 +163,7 @@ if selected_slide == "🏠 ホーム":
         st.markdown("""
         <div class='metric-card'>
             <h3>🇯🇵 日本市場</h3>
-            <p>巨大な機会</p>
+            <p>マーケット規模と</p>
         </div>
         """, unsafe_allow_html=True)
 
